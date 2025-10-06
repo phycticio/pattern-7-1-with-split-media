@@ -48,6 +48,7 @@ sass/
 |   ...
 `– mobile.sass
 `– desktop.sass
+`- (any other size we need)
 ```
 
 ## HTML
@@ -62,6 +63,7 @@ sass/
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <link href="css/mobile.css" rel="stylesheet" media="all and (max-width: 600px)">
         <link href="css/desktop.css" rel="stylesheet" media="all and (min-width: 600px)">
+        <!-- Insert any breakpoint needed -->
     </head>
     <body>
         <h1>Gravida arcu ac tortor.</h1>
@@ -85,9 +87,3 @@ node-sass --output-style compressed sass/mobile.sass css/mobile.css
 node-sass --output-style compressed sass/desktop.sass css/desktop.css
 ```
 
-## Other variants
-
-- [Pattern 7-1 with Split media](https://github.com/tanrax/pattern-7-1-with-split-media): The best, highly recommended ❤️)
-- [Pattern 7-1](https://github.com/tanrax/pattern-7-1): Standard. **Not responsive design**.
-- [Pattern 7-1 Lite with Split media](https://github.com/tanrax/pattern-7-1-lite-with-split-media): Simplified version for students or very small web sites.
-- [Pattern 7-1 Lite](https://github.com/tanrax/pattern-7-1-lite): Simplified version for students or very small web sites. **Not responsive design**.
