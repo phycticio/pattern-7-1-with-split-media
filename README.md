@@ -1,6 +1,3 @@
-Here is the revised `README.md` using **pnpm** instead of **yarn** for the installation and compilation steps.
-
-````markdown
 # Pattern Template 7-1 version with Split Media
 
 An extraordinarily neat architecture that any Web Designer can understand at a glance. Structure with the help of SASS and media queries.
